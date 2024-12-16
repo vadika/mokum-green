@@ -1,0 +1,27 @@
+// style.css
+body {
+  background-color: #000000 !important;
+  color: #00ff00 !important;
+}
+
+/* Override all text elements to ensure green color */
+p, span, div, h1, h2, h3, h4, h5, h6, a {
+  color: #00ff00 !important;
+}
+
+/* Make links a slightly different shade of green for visibility */
+a:link, a:visited {
+  color: #33ff33 !important;
+}
+
+/* Override any existing backgrounds */
+* {
+  background-color: #000000 !important;
+}
+
+/* Form inputs and text areas */
+input, textarea {
+  background-color: #111111 !important;
+  color: #00ff00 !important;
+  border-color: #00ff00 !important;
+}

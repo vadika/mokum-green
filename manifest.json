@@ -1,0 +1,20 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "Mokum Dark Green Mode",
+  "version": "1.0",
+  "description": "Changes mokum.place to dark background with green text",
+
+  "permissions": [
+    "*://*.mokum.place/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mokum.place/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
+
+
